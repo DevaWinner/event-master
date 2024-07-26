@@ -6,9 +6,9 @@ header {
 	background-color: var(--secondary-color);
 	padding: 1rem 1.5rem;
 	border-bottom: 2px solid #fff;
-	/* position: fixed;
+	position: fixed;
 	width: 100%;
-	z-index: 1000; */
+	z-index: 1000;
 }
 
 header .logo {
@@ -43,7 +43,7 @@ nav ul {
 nav ul.show {
 	max-height: 320px;
 	opacity: 1;
-	top: 5.677rem;
+	top: 4.8rem;
 	right: 0;
 }
 
@@ -89,7 +89,7 @@ nav ul li a:hover::after {
 .hero {
 	background-color: var(--secondary-color);
 	text-align: center;
-	padding-top: 1rem;
+	padding-top: 4rem;
 }
 
 .hero-text {
@@ -283,10 +283,20 @@ footer {
   color: var(--dark-color);
 }
 
+.events {
+  padding: 6rem 1rem 2rem 1rem;
+}
+
+.events h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
 .events-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 1.5rem;
+  gap: 2rem;
   padding: 2rem 1rem;
 }
 
@@ -316,6 +326,8 @@ footer {
 
 
 @media screen and (min-width: 769px) {
-
+.events {
+  padding: 7rem 1rem 2rem 1rem;
+}
  
 }
